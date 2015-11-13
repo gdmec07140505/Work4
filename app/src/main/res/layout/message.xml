@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="姓名"
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+
+    <TextView
+        android:id="@+id/danwei"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="单位"
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="电话"
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+
+    <TextView
+        android:id="@+id/qq"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="QQ"
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+
+    <TextView
+        android:id="@+id/dizhi"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="地址"
+        android:textSize="22.0dip"
+        android:layout_marginLeft="5.0dip"/>
+
+
+</LinearLayout>
